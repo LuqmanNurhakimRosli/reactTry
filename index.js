@@ -1,1 +1,35 @@
-ReactDOM.render(<h1>Hello, everyone!</h1>, document.getElementById("root"));
+function Navbar () {
+    return (
+        <navbar>
+
+        </navbar>
+    )
+    }
+
+    function MainContent () {
+        return (
+            <Section>
+                
+            </Section>
+        )
+        }
+
+        function Footer () {
+            return (
+                <Footer>
+                    
+                </Footer>
+            )
+            }    
+
+
+
+
+
+ReactDOM.render
+(<div>
+    <Navbar />
+    <MainContent />
+    <Footer />
+</div>
+, document.getElementById("root"));
