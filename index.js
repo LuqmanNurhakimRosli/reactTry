@@ -1,35 +1,54 @@
-function Navbar () {
-    return (
-        <navbar>
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-        </navbar>
-    )
-    }
+const page = (
+    <div>
+        <h1>List of my man:</h1>
+        <ul>
+            <li>Adam</li>
+            <li>Rabu</li>
+            <li>jasmin</li>
+            <li>Kitor</li>
+        </ul>
+    </div>
+)
 
-    function MainContent () {
-        return (
-            <Section>
+
+ReactDOM.render(page,document.getElementById('root'));
+
+
+// function Navbar () {
+//     return (
+//         <navbar>
+
+//         </navbar>
+//     )
+//     }
+
+//     function MainContent () {
+//         return (
+//             <Section>
                 
-            </Section>
-        )
-        }
+//             </Section>
+//         )
+//         }
 
-        function Footer () {
-            return (
-                <Footer>
+//         function Footer () {
+//             return (
+//                 <Footer>
                     
-                </Footer>
-            )
-            }    
+//                 </Footer>
+//             )
+//             }    
 
 
 
 
 
-ReactDOM.render
-(<div>
-    <Navbar />
-    <MainContent />
-    <Footer />
-</div>
-, document.getElementById("root"));
+// ReactDOM.render
+// (<div>
+//     <Navbar />
+//     <MainContent />
+//     <Footer />
+// </div>
+// , document.getElementById("root"));
